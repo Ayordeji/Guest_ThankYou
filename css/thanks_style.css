@@ -1,0 +1,42 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #1a1a1a;
+    height: 100vh;
+}
+
+.fs-mine {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+/* My Buttons */
+.mine2-btn {
+    background-color: #AF13AF;
+    border: 2px solid #AF13AF;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mine2-btn:hover {
+    background-color: #DD18DD;
+}
+.mine2-btn:active {
+    background-color: #EA3EEA;
+}
+.mine2-btn:disabled, .mine2-btn[disabled] {
+    background-color: #F49AF4;
+}
+
+
+.bg-neutral-7 { background-color: #E9E5E5;}
+
+
+@media only screen and (min-width: 768px) {
+    .myCard {
+        widh: 50%;
+        /* margin: 0 auto; */
+    }
+}
